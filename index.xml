@@ -17,6 +17,21 @@
     </item>
     
     <item>
+      <title>新笔记 </title>
+      <link>/2020/12/23/%E6%96%B0%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/12/23/%E6%96%B0%E7%AC%94%E8%AE%B0/</guid>
+      <description>作业下载并读取数据到R中getwd()## [1] &amp;quot;E:/Rstudy/hyq3/content/post/2020-12-23-新笔记&amp;quot;library(readxl)mon &amp;lt;- read_xls(&amp;quot;E:\\Rstudy\\hyq3\\birdflu.xls&amp;quot;)print(&amp;quot;RStudio成功读取数据文档命名为&amp;#39;mon&amp;#39;&amp;quot;)## [1] &amp;quot;RStudio成功读取数据文档命名为&amp;#39;mon&amp;#39;&amp;quot;这个数据表有多少行，多少列？用dim函数得出结果，因此mon（所读取的数据表）有15行，有7列
+各列的列名称是什么？数据结构是什么？从第一列到最后一列的每一列名称分别是country, 2003, 2004, 2005, 2006, 2007, 2008
+数据显示中国 2006 年有多少病例？数据显示中国 2006 年有13万病例
+这些国家在 2003 和 2005 年的病例总和分别是多少？这些国家在 2003 和 2005 年的病例总和分别是4和98
+各国累计病例是多少？将累计病例数作为新的一列插入表中。从首行国家到末行，各国累计病例分别为
+哪个国家累计病例数最多？哪个国家最少？累计病例数最多的国家是Indonesia 累计病例数最少的国家是Bangladesh
+</description>
+    </item>
+    
+    <item>
       <title>A Plain Markdown Post</title>
       <link>/2016/12/30/a-plain-markdown-post/</link>
       <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
